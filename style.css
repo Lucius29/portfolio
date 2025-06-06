@@ -34,7 +34,7 @@ nav {
 nav button a {
     padding: 0 5px;
     text-decoration: none;
-    font-weight: 500;
+    font-weight: 800;
 }
 
 nav button a:hover {
@@ -43,7 +43,6 @@ nav button a:hover {
 .btn {
     background-color: #ffff00;
     padding: 6px 20px;
-    box-shadow: 3px 3px 0 black;
     transition: 0.3s;
 }
 
@@ -56,27 +55,26 @@ nav button a:hover {
     background-color: #fefb99;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    /* margin: 10px; */
-    padding: 20px 0;
-    justify-content: space-between;
+    text-align: center;
+    padding: 135px 0;
     align-items: center;
     border-bottom: 5px solid black;
 }
 
 #about img {
-    width: 80%;
-    box-shadow: 10px 10px 0 black;
+    width: 50%;
+    border: 5px solid black;
     transition: 0.3s;
 }
 
 #about img:hover {
-    box-shadow: 15px 15px 0 black;
+    box-shadow: 10px 10px 0 black;
     transform: translate(-5px, -5px);
 }
 
 #about .text_about {
     width: 80%;
-    padding: 0 20px;
+    padding-left: 150px;
 }
 
 #about .text_about h2 {
@@ -87,6 +85,34 @@ nav button a:hover {
     font-size: 20px;
 }
 
+#skills {
+    background-color: #fda179;
+    border-bottom: black solid 5px;
+    text-align: center;
+}
+
+#skills h2 {
+    font-size: 60px;
+}
+
+#skills ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 20px;
+}
+
+#skills ul li {
+    list-style-type: none;
+    background-color: #ffff00;
+    padding: 20px;
+    margin: 10px;
+    border: 3px solid black;
+    transition: 0.3s;
+}
+#skills ul li:hover {
+    box-shadow: 8px 8px 0 black;
+    transform: translate(-5px, -5px);
+}
 footer {
     border-top: 5px solid black;
 }
